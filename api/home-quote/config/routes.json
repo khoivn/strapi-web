@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/home-quote",
+      "handler": "home-quote.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/home-quote",
+      "handler": "home-quote.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/home-quote",
+      "handler": "home-quote.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
